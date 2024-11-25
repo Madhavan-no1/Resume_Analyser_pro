@@ -1,0 +1,46 @@
+/* General body styling */
+body {
+    background-color: #f5f5f5; /* Light gray background */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    margin: 0;
+    padding: 0;
+}
+
+/* Streamlit header style */
+header {
+    display: none; /* Hide Streamlit's default header */
+}
+
+/* Content container */
+[data-testid="stAppViewContainer"] {
+    background-color: #ffffff; /* White background for app content */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+    background-color: #f0f0f0; /* Slightly darker gray for the sidebar */
+    border-right: 1px solid #e0e0e0; /* Thin border */
+}
+
+/* Styling for text */
+h1, h2, h3, h4, h5, h6, p, label {
+    color: #333333; /* Dark gray for text */
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
