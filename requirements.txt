@@ -4,6 +4,10 @@ google-generativeai
 streamlit
 python-dotenv
 Pillow
-chainlit
 pdf2image
 PyPDF2
+python-docx
+requests
+beautifulsoup4
+pandas
+
